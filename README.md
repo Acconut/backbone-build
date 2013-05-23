@@ -17,3 +17,5 @@ build -i router,sync -o mybackbone.js -m
 ```
 
 Current Backbone version: 1.0.0
+
+**Note:** Your build doesn't include Underscore.js.
