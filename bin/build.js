@@ -51,7 +51,7 @@ if(include){
 } else if(exclude) {
     var e = exclude.split(",");
     for(var i in parts) {
-        if(!(i in e)) needed.push(i); 
+        if(e.indexOf(i) === -1) needed.push(i); 
     }
 } else {
     console.log([
