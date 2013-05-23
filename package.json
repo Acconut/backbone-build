@@ -1,0 +1,12 @@
+{
+  "name": "backbone-build",
+  "description": "Buiild your own version of Backbone. NOW!",
+  "version": "0.0.0",
+  "dependencies": {
+    "optimist": "~0.5.0",
+    "uglify-js": "~2.3.5"
+  },
+  "bin": {
+    "build": "./bin/build.js"
+  }
+}
